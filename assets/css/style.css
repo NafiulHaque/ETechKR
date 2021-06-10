@@ -6,6 +6,9 @@
 body{
     margin-bottom: 0;
 }
+.link>a{
+    text-decoration: none;
+}
 .container{
     padding-right: 0;
     padding-left: 0;
@@ -36,7 +39,52 @@ body{
     color: #77BD05;
     font-weight: 700;
     
+}
 
+.part-1, .part-2, .part-3, .part-4, .part-5, .part-7{
+    border-bottom: rgb(160, 153, 153) 1px dashed;
+}
+.part-1 .bg-image{
+    background-image: url(../images/post-img/post-img-1.jpg);
+    width: 100%;
+    height: 60px;
+    border: solid 1px white;
+    background-size: cover;
+    background-position: center;
+
+}
+.part-2 .bg-image{
+    background-image: url(../images/post-img/post-img-2.jpg);
+    width: 100%;
+    height: 60px;
+    border: solid 1px white;
+    background-size: cover;
+    background-position: center;
+
+}
+.part-3 .bg-image{
+    background-image: url(../images/post-img/post-img-3.jpg);
+    width: 100%;
+    height: 60px;
+    border: solid 1px white;
+    background-size: cover;
+    background-position: center;
+}
+.part-4 .bg-image{
+    background-image: url(../images/post-img/post-img-4.jpg);
+    width: 100%;
+    height: 60px;
+    border: solid 1px white;
+    background-size: cover;
+    background-position: center;
+}
+ .part-5 .bg-image{
+    background-image: url(../images/post-img/post-img-5.jpg);
+    width: 100%;
+    height: 60px;
+    border: solid 1px white;
+    background-size: cover;
+    background-position: center;
 }
 /* --------x------global------x------ */
 
@@ -56,11 +104,11 @@ body{
 .navBar .container .row .s-part ul{
     display: flex;
     margin-bottom: 0;
-    justify-content: space-between;
 }
 .navBar .container .row .f-part ul li{
     list-style: none;
     border-right: white 1px solid;
+    
 
 }
 .navBar .container .row .f-part ul li:last-child{
@@ -70,7 +118,7 @@ body{
     list-style: none;
     float: right;
     border-right: white 1px solid;
-    
+    padding:0 10px;
 
 }
 .navBar .container .row .s-part ul li:last-child{
@@ -94,13 +142,18 @@ body{
 }
 .mainnavbar .container .navlist ul{
  display: flex;
-justify-content: space-between;
+justify-content: stretch;
+flex-wrap: wrap;
+
 }
 .mainnavbar .container .navlist ul li{
     list-style: none;
+    /* flex: 5%; */
+    margin-right: 15px;
 }
 .mainnavbar .container .navlist ul li a{
     text-decoration: none;
+    font-weight: 600;
 }
 
 /* --------x------navbar------x------ */
@@ -168,9 +221,7 @@ justify-content: space-between;
     z-index: 6;
     left: 15px;
 }
-.hero .main-hero .hero-side,.body .part-1, .part-2, .part-3, .part-4, .part-5, .part-7{
-    border-bottom: rgb(160, 153, 153) 1px dashed;
-}
+
 
 
 .hero .main-hero .hero-side h6{
@@ -184,48 +235,7 @@ justify-content: space-between;
 }
 
 
-.hero .main-hero .hero-side .part-1 .bg-image{
-    background-image: url(../images/post-img/post-img-1.jpg);
-    width: 100%;
-    height: 60px;
-    border: solid 1px white;
-    background-size: cover;
-    background-position: center;
-
-}
-.hero .main-hero .hero-side .part-2 .bg-image{
-    background-image: url(../images/post-img/post-img-2.jpg);
-    width: 100%;
-    height: 60px;
-    border: solid 1px white;
-    background-size: cover;
-    background-position: center;
-
-}
-.hero .main-hero .hero-side .part-3 .bg-image{
-    background-image: url(../images/post-img/post-img-3.jpg);
-    width: 100%;
-    height: 60px;
-    border: solid 1px white;
-    background-size: cover;
-    background-position: center;
-}
-.hero .main-hero .hero-side .part-4 .bg-image{
-    background-image: url(../images/post-img/post-img-4.jpg);
-    width: 100%;
-    height: 60px;
-    border: solid 1px white;
-    background-size: cover;
-    background-position: center;
-}
-.hero .main-hero .hero-side .part-5 .bg-image{
-    background-image: url(../images/post-img/post-img-5.jpg);
-    width: 100%;
-    height: 60px;
-    border: solid 1px white;
-    background-size: cover;
-    background-position: center;
-}
+ 
 
 .hero .main-hero .hero-side .part-6{
     background-color:  #77BD05;
@@ -363,12 +373,12 @@ justify-content: space-between;
 /* --------x------middle------x------ */
 
 
-/* --------------low------------ */
+/* --------------law------------ */
 /* f-part-- */
-.low .f-body{
+.law .f-body{
     overflow: hidden;
 }
-.low .f-body .f-part .bg-img{
+.law .f-body .f-part .bg-img{
     background-image: url("../images/post-img/post-img-5.jpg");
     width: 100%;
     height: 150px;
@@ -379,7 +389,7 @@ justify-content: space-between;
 /* s-part-- */
 /* t-part-- */
 
-/* --------x------low------x------ */
+/* --------x------law------x------ */
 
 
 
