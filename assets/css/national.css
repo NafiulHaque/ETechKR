@@ -1,0 +1,60 @@
+.hero .page-title {
+  background: #f2f2f2;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 20px;
+  color: green;
+}
+
+.hero .page-title .icon a {
+  text-decoration: none;
+  color: green;
+  margin-right: 4px;
+}
+
+.card-wide {
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  /* margin-bottom: 15px; */
+}
+.card-wide .bg-img {
+  background-image: url("../images/post-img/post-img-1.jpg");
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-wide .title {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pagination .part {
+  background-color: rgb(26, 14, 92);
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 4px;
+  width: 60px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.pagination .part:hover {
+  background-color: #f2f2f2;
+  color: rgb(26, 14, 92);
+}
