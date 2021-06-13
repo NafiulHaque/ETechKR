@@ -1,0 +1,25 @@
+.middle .mainbody .post-admin{
+    background: #f2f2f2;
+}
+
+.middle .mainbody p{
+    margin-bottom: .5rem;
+}
+.middle .mainbody .social-icon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    font-size: 1rem;
+}
+
+.middle .mainbody .f-div .m-title p{
+    font-size: 21px;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #656060;
+}
+
+.middle .mainbody .comment-form{
+    border: rgb(168, 166, 166) solid 1px;
+}
