@@ -12,3 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.getElementById("bars").addEventListener("click", togglebar);
+
+function togglebar() {
+  var element = document.getElementById("navbar_top");
+  element.classList.toggle("togglevalue");
+}

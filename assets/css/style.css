@@ -171,6 +171,23 @@ hr{
   text-decoration: none;
   font-weight: 600;
 }
+.mainnavbar .bannerads{
+  background-image: url("../images/banner\ ads.jpg");
+  width: 100%;
+  height: 90px;
+  background-position: center;
+  background-size: cover;
+  
+}
+.mainnavbar .head{
+  position: relative;
+}
+.mainnavbar .bars{
+  position: absolute;
+  right: 0;
+  z-index: 5;
+  display: none;
+}
 
 /* --------x------navbar------x------ */
 
@@ -178,7 +195,14 @@ hr{
 .hero .container .breakingnews .col-md-2 {
   background: #77bd05;
   color: #fff;
+  
 }
+.hero .container .breakingnews h4{
+  font-size: 1.2rem;
+}
+/* .hero .container .breakingnews{
+ height: 20px;
+} */
 .hero .main-hero {
   background: #484848;
   color: #fff;
@@ -187,6 +211,7 @@ hr{
 .hero .main-hero .hero-title {
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 .hero .main-hero .hero-title .doublebar::before {
   content: "";
@@ -196,6 +221,8 @@ hr{
   position: absolute;
   top: 38%;
   left: 15%;
+  /* display: inline-block;
+  vertical-align: bottom; */
 }
 .hero .main-hero .hero-title .doublebar::after {
   content: "";
@@ -205,6 +232,8 @@ hr{
   position: absolute;
   top: 50%;
   left: 15%;
+  /* display: inline-block;
+  vertical-align: bottom; */
 }
 
 .hero .main-hero .hero-body .hero-img {
@@ -487,3 +516,9 @@ hr{
   flex-direction: row;
 }
 /* --------x------footer------x------ */
+
+
+
+
+
+
