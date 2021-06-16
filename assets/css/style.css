@@ -181,6 +181,7 @@ hr{
 }
 .mainnavbar .head{
   position: relative;
+  width: 100%;
 }
 .mainnavbar .bars{
   position: absolute;
@@ -209,29 +210,40 @@ hr{
   padding-bottom: 10px;
 }
 .hero .main-hero .hero-title {
-  display: flex;
-  position: relative;
+
   overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.hero .main-hero .hero-title .doublebar{
+  width: 100%;
+  overflow: hidden;
+  padding-left: 10px;
+  /* display: inline-block; */
+}
+.hero .main-hero .hero-title a{
+  color: #fff;
+  text-decoration: none;
 }
 .hero .main-hero .hero-title .doublebar::before {
   content: "";
   height: 6px;
-  width: 86.5%;
+  width: 100%;
   background-color: #77bd05;
   position: absolute;
-  top: 38%;
-  left: 15%;
+  top: 30px;
+  /* left: 15%; */
   /* display: inline-block;
   vertical-align: bottom; */
 }
 .hero .main-hero .hero-title .doublebar::after {
   content: "";
   height: 6px;
-  width: 86.5%;
+  width: 100%;
   background-color: #77bd05;
   position: absolute;
-  top: 50%;
-  left: 15%;
+  top: 39px;
+  /* left: 15%; */
   /* display: inline-block;
   vertical-align: bottom; */
 }
