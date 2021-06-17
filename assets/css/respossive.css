@@ -1,6 +1,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .international .i-body .item{
+    flex: 50%;
+  }
 
 }
 
@@ -12,12 +15,13 @@
     display: none;
   }
   .mainnavbar{
-    height: 20vh;
+    height: 15vh;
     overflow: hidden;
   }
   .mainnavbar .bars{
     display: initial;
     color: blue;
+    padding-right: 10px;
   }
 
   .togglevalue{
